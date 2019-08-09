@@ -1,0 +1,22 @@
+<templateSet group="Flutter">
+  <template name="match-screen-bloc" value="match(&quot;/$ROUTE$&quot;)&#10;  ..toScreen((context) =&gt; $SCREEN$)&#10;  ..withBloc((context) =&gt; $BLOC$.from(context));" description="Match route to screen with block" toReformat="false" toShortenFQNames="true">
+    <variable name="ROUTE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="SCREEN" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="BLOC" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="DART_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="provide" value="provide&lt;$NAME$&gt;((context) =&gt; $NAME$());" description="Provides a Provider dependency" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="DART_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="state" value="setState(() =&gt; $STATE$);" description="Set State" toReformat="false" toShortenFQNames="true">
+    <variable name="STATE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="DART_STATEMENT" value="true" />
+    </context>
+  </template>
+</templateSet>
