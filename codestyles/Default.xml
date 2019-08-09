@@ -1,14 +1,5 @@
 <code_scheme name="Default" version="173">
   <option name="RIGHT_MARGIN" value="240" />
-  <DartCodeStyleSettings>
-    <option name="DELEGATE_TO_DARTFMT" value="false" />
-  </DartCodeStyleSettings>
-  <codeStyleSettings language="Dart">
-    <option name="RIGHT_MARGIN" value="160" />
-    <indentOptions>
-      <option name="CONTINUATION_INDENT_SIZE" value="2" />
-    </indentOptions>
-  </codeStyleSettings>
   <codeStyleSettings language="JAVA">
     <option name="ALIGN_MULTILINE_CHAINED_METHODS" value="true" />
     <option name="METHOD_CALL_CHAIN_WRAP" value="5" />
