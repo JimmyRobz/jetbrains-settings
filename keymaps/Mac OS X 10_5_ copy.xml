@@ -19,4 +19,5 @@
     <keyboard-shortcut first-keystroke="ctrl t" />
     <keyboard-shortcut first-keystroke="alt down" />
   </action>
+  <action id="linessorter.sort" />
 </keymap>
